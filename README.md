@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/mpujari/ohcount4j.svn?branch=master)](https://travis-ci.org/mpujari/ohcount4j)
+[![Build Status](https://travis-ci.org/mpujari/ohcount4j.svg?branch=master)](https://travis-ci.org/mpujari/ohcount4j)
 
 # Overview
 
