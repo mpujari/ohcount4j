@@ -158,7 +158,7 @@ Ohcount4j supported languages
 
     `cd git-clone-dir`
 
-    `git clone https://github.com/blackducksoftware/ohcount4j.git`
+    `git clone https://github.com/mpujari/ohcount4j.git`
 
 2. Before importing the ohcount4j project into Eclipse, run the gradle build to create the generated ragel files used by the project.  The gradle script supports the ability to run specifics task for cleaning, regenerating the source, and running tests.  See the build.gradle file for details.
 
