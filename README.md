@@ -10,16 +10,24 @@ Ohcount4j Line Count Summary
 
 Language                  Files       Code    Comment  Comment %      Blank      Total
 ------------------------  -----  ---------  ---------  ---------  ---------  ---------
+C                             4         33         15      31.3%         13         61
 HaXe                          1         32         62      66.0%          7        101
+HTML                          3         29          3       9.4%          2         34
+MetaPost                      1         26          8      23.5%          8         42
 OpenGL Shading Language       1         25         12      32.4%          6         43
+TeX/LaTeX                     1         19          1       5.0%          0         20
+MetaFont                      1         13          4      23.5%          5         22
 COBOL                         1         13          1       7.1%          2         16
 BlitzMax                      1          9         12      57.1%         11         32
 ChaiScript                    1          8          7      46.7%          2         17
-HTML                          1          8          1      11.1%          2         11
-C                             1          4         10      71.4%          4         18
+ClearSilver                   2          8          1      11.1%          0          9
+CoffeeScript                  1          7          9      56.3%          7         23
+Haml                          1          7          8      53.3%          1         16
+Ruby                          1          4          0       0.0%          0          4
+JavaScript                    2          4          0       0.0%          0          4
 CSS                           1          1          0       0.0%          0          1
 ------------------------  -----  ---------  ---------  ---------  ---------  ---------
-Total                         7        100        105      51.2%         34        239
+Total                        16        238        143      37.5%         64        445
 ```
 
 ## Parameters
@@ -73,6 +81,7 @@ Ohcount4j supported languages
   clearsilver       ClearSilver       
   clojure           Clojure           
   cobol             COBOL             
+  coffeescript      CoffeeScript      
   coldfusion        ColdFusion        
   cpp               C++               
   cmake             CMake             
@@ -87,6 +96,7 @@ Ohcount4j supported languages
   ec                eC                
   ecmascript        ECMAScript        
   eiffel            Eiffel            
+  elixir            Elixir            
   emacslisp         Emacs Lisp        
   erlang            Erlang            
   factor            Factor            
@@ -95,21 +105,29 @@ Ohcount4j supported languages
   fortranfixed      Fortran (Fixed-Format)
   fortranfree       Fortran (Free-Format)
   fsharp            F#                
+  genie             Genie             
   glsl              OpenGL Shading Language
   golang            Go                
   groovy            Groovy            
+  haml              Haml              
   haxe              HaXe              
   html              HTML              
   haskell           Haskell           
+  idl_pvwave        IDL/PV-WAVE/GDL   
+  jam               Jam               
   java              Java              
   javascript        JavaScript        
-  limbo             Limbo             
   jsp               JSP               
+  kotlin            Kotlin            
+  limbo             Limbo             
   lisp              Lisp              
+  logtalk           Logtalk           
   lua               Lua               
   make              Make              
   mathematica       Mathematica       
   matlab            Matlab            
+  metapost          MetaPost          
+  metafont          MetaFont          
   modula2           Modula 2          
   modula3           Modula 3          
   objective_c       Objective-C       
@@ -119,7 +137,6 @@ Ohcount4j supported languages
   perl              Perl              
   php               Php               
   puppet            Puppet            
-  pvwave            IDL/PV-WAVE/GDL   
   prolog            Prolog            
   python            Python            
   r                 R                 
