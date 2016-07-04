@@ -7,7 +7,6 @@ Ohcount4j is a ragel/java application for inspecting source by detecting languag
 ./ohcount4j src/test/src-code
 
 Ohcount4j Line Count Summary
-
 Language                  Files       Code    Comment  Comment %      Blank      Total
 ------------------------  -----  ---------  ---------  ---------  ---------  ---------
 C                             4         33         15      31.3%         13         61
@@ -16,6 +15,7 @@ HTML                          3         29          3       9.4%          2     
 MetaPost                      1         26          8      23.5%          8         42
 OpenGL Shading Language       1         25         12      32.4%          6         43
 TeX/LaTeX                     1         19          1       5.0%          0         20
+TypeScript                    1         15          3      16.7%          4         22
 MetaFont                      1         13          4      23.5%          5         22
 COBOL                         1         13          1       7.1%          2         16
 BlitzMax                      1          9         12      57.1%         11         32
@@ -27,7 +27,8 @@ Ruby                          1          4          0       0.0%          0     
 JavaScript                    2          4          0       0.0%          0          4
 CSS                           1          1          0       0.0%          0          1
 ------------------------  -----  ---------  ---------  ---------  ---------  ---------
-Total                        16        238        143      37.5%         64        445
+Total                        17        253        146      36.6%         68        467
+
 ```
 
 ## Parameters
@@ -152,6 +153,7 @@ Ohcount4j supported languages
   structured_basic  Structured Basic  
   tcl               Tcl               
   tex               TeX/LaTeX         
+  typescript        TypeScript
   unknown           Unknown           
   vb                VisualBasic       
   vbscript          VBScript          
