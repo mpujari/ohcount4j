@@ -188,6 +188,7 @@ public enum Language implements LanguageCategory {
     STRUCTURED_BASIC("Structured Basic", LOGIC, VisualBasicScanner.class),
     TCL("Tcl", LOGIC, TclScanner.class),
     TEX("TeX/LaTeX", MARKUP, TexScanner.class),
+    TYPESCRIPT("TypeScript", LOGIC, CStyleScanner.class),
     UNKNOWN("Unknown", CATEGORY_UNKNOWN, GenericCodeScanner.class),
     VB("VisualBasic", LOGIC, VisualBasicScanner.class),
     VBSCRIPT("VBScript", LOGIC, VisualBasicScanner.class),
@@ -298,6 +299,7 @@ public enum Language implements LanguageCategory {
         STRUCTURED_BASIC.extensions("b", "bas", "bi");
         TCL.extension("tcl");
         TEX.extension("tex");
+        TYPESCRIPT.extension("ts");
         VB.extensions("bas", "frm", "frx", "vb", "vba");
         VBSCRIPT.extensions("vbs", "vbe");
         VIMSCRIPT.extension("vim").aliases("Vim Script", "VimL");

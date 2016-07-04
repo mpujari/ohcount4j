@@ -82,6 +82,7 @@ public class DetectorTest {
                 { Language.ELIXIR, Arrays.asList("foo.ex", "foo.exs") },
                 { Language.METAPOST, Arrays.asList("main.mp") },
                 { Language.METAFONT, Arrays.asList("main.mf") },
+                { Language.TYPESCRIPT, Arrays.asList("foo.ts") },
         };
     }
 

@@ -300,6 +300,8 @@ public class LanguageTest {
                         Arrays.asList("tcl"), Arrays.asList() },
                 { TEX, "TeX/LaTeX", "tex", MARKUP, TexScanner.class,
                         Arrays.asList("tex"), Arrays.asList() },
+                { TYPESCRIPT, "TypeScript", "typescript", LOGIC, CStyleScanner.class,
+                            Arrays.asList("ts"), Arrays.asList() },
                 { VB, "VisualBasic", "vb", LOGIC, VisualBasicScanner.class,
                         Arrays.asList("bas", "frm", "frx", "vb", "vba"), Arrays.asList() },
                 { VBSCRIPT, "VBScript", "vbscript", LOGIC, VisualBasicScanner.class,
